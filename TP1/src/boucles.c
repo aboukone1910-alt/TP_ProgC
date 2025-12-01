@@ -1,7 +1,8 @@
+
 #include <stdio.h>
 
 int main() {
-    int compteur = 5;   
+    int compteur = 5;    
 
     if (compteur >= 10 || compteur <= 0) {
         printf("Erreur : compteur doit être entre 1 et 9.\n");
@@ -15,6 +16,7 @@ int main() {
             if (j == 1 || j == i) {
                 printf("* ");
             }
+            
             else if (i == compteur) {
                 printf("* ");
             }
@@ -23,6 +25,12 @@ int main() {
             }
         }
         printf("\n");
+    }
+
+    return 0;
+}
+
+#include <stdio.h>
 
 int main() {
     int compteur = 5;    
@@ -57,5 +65,3 @@ int main() {
 
     return 0;
 }
-
-
