@@ -31,7 +31,7 @@ int main() {
     printf("unsigned int : %u\n", u_int);
 
     printf("signed long : %ld\n", s_long);
-    printf("unsigned long : %lu\n" u_long);
+    printf("unsigned long : %lu\n", u_long);
 
     printf("signed long long : %lld\n", s_llong);
     printf("unsigned long long : %llu\n", u_llong);
@@ -42,3 +42,4 @@ int main() {
 
     return 0;
 }
+
